@@ -1,0 +1,12 @@
+{
+  "org_name": "Riverbend Bike Co",
+  "default_sensitivity": "internal",
+  "refusals": [
+    {
+      "name": "compensation",
+      "roles": ["guest", "staff"],
+      "match_any": ["salary", "salaries", "salary band", "pay band", "pay bands", "wage", "wages", "compensation", "pay rate", "pay rates"],
+      "message": "Ask the owner directly."
+    }
+  ]
+}

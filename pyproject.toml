@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cazmind"
+version = "0.1.0"
+description = "A permission-aware, searchable company brain over markdown files."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+cazmind = "cazmind.__main__:main"
+
+[tool.setuptools]
+packages = ["cazmind"]
